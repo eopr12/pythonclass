@@ -10,9 +10,11 @@
 # 종료
 
 
-grade  = 75
+grade = 75
 
-if grade >= 60 :
+grade = int(input("점수를 입력하시오 >>"))
+
+if grade >= 60:
     # 조건식이 True 이면 실행
     print("합격입니다.")
     print("장학금도 받을 수 있습니다.")

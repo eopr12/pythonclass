@@ -1,7 +1,6 @@
 
 # 현재 월을 변수에 저장합니다.
-month = input("month : ")
-month = int(month)
+month = int(input("month : "))
 
 
 # 조건문으로 계절을 확인합니다.
