@@ -12,7 +12,7 @@ print("// 몫은: ", quotient)  # (출력값)
 quotient = math.floor(num)
 print("floor 몫은: ", quotient)  # (출력값)
 
-# 몫을 구하시오. 
+# 몫을 구하시오.
 # trunc 는 양수일 때는 OK. 음수이면 오류.
 quotient = math.trunc(num)
 print("trunc 몫은: ", quotient)  # (출력값)

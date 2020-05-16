@@ -4,8 +4,8 @@
 
 sign = "stop"
 
-while sign == "stop":
-    sign = input("현재 신호를 입력하시오: ")  # 여러번 실행된다.
+while sign == "stop":  # 입력값이 stop이면 무한적으로 실행된다.
+    sign = input("현재 신호를 입력하시오: ")
     print("입력값 >>>", sign)
 
 print("OK! 진행합니다.")  # 한번만 실행.

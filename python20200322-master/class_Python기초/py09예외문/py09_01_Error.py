@@ -11,22 +11,22 @@
 
 # 오류의 종류에 따라서 서로 다른 예외 처리가 가능하다
 
-try:    
+try:
     입력값 = input("숫자를 입력하세요")
-    정수값 = int( 입력값 ) # 입력값 "abc" 이면 에러 발생
-    실수값 = float( 입력값 ) # 입력값 "abc" 이면 에러 발생
-    실수값 = int( 입력값 ) # 입력값 "12.5" 이면 에러 발생
-    나누기 = 10 / 정수값 # 정수값 0이면 오류 발생.
+    정수값 = int(입력값)  # 입력값 "abc" 이면 에러 발생
+    실수값 = float(입력값)  # 입력값 "abc" 이면 에러 발생
+    실수값 = int(입력값)  # 입력값 "12.5" 이면 에러 발생
+    나누기 = 10 / 정수값  # 정수값 0이면 오류 발생.
 except ZeroDivisionError as ex:
-    print("ZeroDivisionError ::", ex )
+    print("ZeroDivisionError ::", ex)
     pass
 except TypeError as ex:
-    print("TypeError ::", ex )
+    print("TypeError ::", ex)
     pass
-except ValueError as ex: # 무조건 마지막에 넣어야 한다.
-    print( "ValueError ::",  ex )
+except ValueError as ex:  # 무조건 마지막에 넣어야 한다.
+    print("ValueError ::",  ex)
     pass
-except Exception as ex: # 무조건 마지막에 넣어야 한다.
-    print( "Exception ::",  ex )
+except Exception as ex:  # 무조건 마지막에 넣어야 한다.
+    print("Exception ::",  ex)
     pass
 print("정상 종료")

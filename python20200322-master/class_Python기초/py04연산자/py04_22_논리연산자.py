@@ -30,4 +30,5 @@ print((x > y) or (x < y))
 
 print((x >= y) or (x <= y))
 
-print((x == y) and (x != y) or (x < y))
+print((x == y) and (x != y) or (x < y))  # False or True ==> True
+# and부터 순차적으로 진행됨

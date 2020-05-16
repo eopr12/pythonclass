@@ -1,3 +1,6 @@
+# or은 둘중 하나만 true면 ==> True
+# and는 둘중 하나만 false여도 ==> False
+
 # 불린 타입
 print(not True)
 print(not False)
